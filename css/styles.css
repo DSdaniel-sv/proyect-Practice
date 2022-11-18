@@ -16,6 +16,7 @@
 /* container padre */
 .wrapper{
     /* background-color: var(--color2); */
+    height: 2000px;
 }
 
 /* header */
@@ -474,5 +475,29 @@
 
 /* section7 */
 .section7{
+    background-color: var(--color2);
+}
+
+/* footer */
+.footer{
+    background-color: var(--color0);
+}
+.box__contactos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box__contact-icons{
+}
+.box__contact-icons a{
+    display: block;
+}
+.box__contact-icons h4{
+    font-weight: 700;
+}
+.footer__copyright p{
+    text-align: center;
+    padding: 1rem;
     background-color: var(--color2);
 }
