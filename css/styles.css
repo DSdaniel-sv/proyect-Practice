@@ -9,7 +9,6 @@
 #body{
     background-image: url('../src/img/background_2.jpg');
     background-repeat: no-repeat;
-    background-position-y: 900px;
     background-size: cover;
 }
 
