@@ -13,6 +13,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css">
 
     <title>WAPSI - SERVICIOS INTERNACIONALES</title>
 </head>
@@ -156,7 +157,7 @@
                             <div>
                                 <h5>Agenda el dia y la hora</h5>
                                 <p>
-                                    Nos adecuamos a tu disponibilidad, 
+                                    Nos adecuamos a tu disponibilidad,
                                     asegurate de agendar con tres dias de
                                     anticipacion.
                                 </p>
@@ -199,7 +200,8 @@
                                     <p><i class="fa-regular fa-circle-check"></i> La mas solicitada por clientes</p>
                                     <p><i class="fa-regular fa-circle-check"></i> Asiste una señorita</p>
                                     <p><i class="fa-regular fa-circle-check"></i> 5 y 7 Horas de servicio continuos</p>
-                                    <p><i class="fa-regular fa-circle-check"></i> Suscribete a un plan para un 10% OFF.</p>
+                                    <p><i class="fa-regular fa-circle-check"></i> Suscribete a un plan para un 10% OFF.
+                                    </p>
                                     <br>
                                 </div>
                                 <div class="btn__reserva">
@@ -238,11 +240,11 @@
             </section>
 
             <section class="section4">
-                <div>
+                <div class="box__title-transparent">
                     <h2>SERVICIOS INTEGRALES</h2>
                     <p>Para hogares y empresas</p>
                 </div>
-                <div>
+                <div class="box__img-util">
                     <picture>
                         <img src="./src/img/brocha.png" alt="">
                         <img src="./src/img/escoba.png" alt="">
@@ -250,11 +252,120 @@
                     </picture>
                 </div>
             </section>
+
+            <section class="section5">
+                <div class="box__title2">
+                    <span class="span1">Servicio </span> <Span class="span2"> 360°</Span>
+                    <div class="line__box">
+                    </div>
+                </div>
+                <div>
+                    <div class="Carousel">
+                        <div class="slick-list" id="slick-list">
+                            <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev"
+                                onclick="app.processingButton(event)">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+                                    class="svg-inline--fa fa-chevron-left fa-w-10" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                        d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+                                    </path>
+                                </svg>
+                            </button>
+                            <div class="slick-track" id="track">
+                                <div class="slick">
+                                    <div>
+                                        <a href="/">
+                                            <picture>
+                                                <img src="./src/img/carrusel2/altavoz.png" alt="Image">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="slick">
+                                    <div>
+                                        <a href="/">
+                                            <picture>
+                                                <img src="./src/img/carrusel2/candado.png" alt="Image">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="slick">
+                                    <div>
+                                        <a href="/">
+                                            <picture>
+                                                <img src="./src/img/carrusel2/cohete.png" alt="Image">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="slick">
+                                    <div>
+                                        <a href="/">
+                                            <picture>
+                                                <img src="./src/img/carrusel2/corazon.png" alt="Image">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="slick">
+                                    <div>
+                                        <a href="/">
+                                            <picture>
+                                                <img src="./src/img/carrusel2/envios.png" alt="Image">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="slick">
+                                    <div>
+                                        <a href="/">
+                                            <picture>
+                                                <img src="./src/img/carrusel2/lapiz.png" alt="Image">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="slick">
+                                    <div>
+                                        <a href="/">
+                                            <picture>
+                                                <img src="./src/img/carrusel2/personas.png" alt="Image">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="slick-arrow slick-next" id="button-next" data-button="button-next"
+                                onclick="app.processingButton(event)">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                                    class="svg-inline--fa fa-chevron-right fa-w-10" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                        d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+            </section>
         </main>
     </div>
 
-    <script src="./js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="./js/App.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
+
+<!-- <img src="./src/img/carrusel2/altavoz.png" class="d-flex" alt="...">
+                            <img src="./src/img/carrusel2/candado.png" class="d-flex" alt="...">
+                            <img src="./src/img/carrusel2/cohete.png" class="d-flex" alt="...">
+                            <img src="./src/img/carrusel2/corazon.png" class="d-flex" alt="...">
+                            <img src="./src/img/carrusel2/envios.png" class="d-flex" alt="...">
+                            <img src="./src/img/carrusel2/lapiz.png" class="d-flex" alt="...">
+                            <img src="./src/img/carrusel2/personas.png" class="d-flex" alt="...">
+                          </div> -->
