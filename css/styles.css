@@ -355,7 +355,6 @@
 
 /* section4 */
 .section4{
-    border: solid;
 }
 .box__title-transparent{
     color: var(--color2);
@@ -447,4 +446,28 @@
 }
 .slick-next{
     right: 0px;
+}
+
+/* section6 */
+.section6{
+    background-color: var(--color2);
+}
+.box__nuestros-s{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 3rem 0;
+    flex-wrap: wrap;
+}
+.sect6 img{
+    width: 300px;
+}
+.sect6 {
+    max-width: 480px;
+    text-align: center;
+}
+.sect6 p{
+    margin: 2rem 0;
+    color: var(--color1);
+    font-weight: 530;
 }
